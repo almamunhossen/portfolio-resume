@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==title=============================-->
+    <title>Portfolio Website Using HTML CSS and JavaScript</title>
+    <!--==CSS===============================-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--==fav-icon==========================-->
+    <link rel="shortcut icon" href="images/fav-icon.png" />
+    <!--==import-poppins-font===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--==font-awesome-for-icons============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--==swiper-slider=====================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!--==aos-for animation=================-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="main-container">
+        <!--==Menu and Profile=============================-->
+        <div class="menu-profile">
+            <!--**header**********-->
+            <header>
+                <nav>
+                    <!--dark-light-btn-->
+                    <button class="dark-light-btn bg-gredient">
+                        <i class="fa-regular fa-sun"></i>
+                    </button>
+                    <!--menu-->
+                    <ul>
+                        <!--about-->
+                        <li><a href="#about-us" data-label="About" class="active">
+                                <i class="fa-solid fa-address-book"></i>
+                            </a></li>
+                        <!--skill-->
+                        <li><a href="#skills" data-label="Skills">
+                                <i class="fa-solid fa-layer-group"></i>
+                            </a></li>
+                        <!--services-->
+                        <li><a href="#services" data-label="Services">
+                                <i class="fa-solid fa-screwdriver-wrench"></i>
+                            </a></li>
+                        <!--pricing-->
+                        <li><a href="#pricing" data-label="Pricing">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </a></li>
+                        <!--project-->
+                        <li><a href="#projects" data-label="Projects">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </a></li>
+                        <!--Education and work (Resume)-->
+                        <li><a href="#edu-work" data-label="Resume">
+                                <i class="fa-solid fa-file-lines"></i>
+                            </a></li>
+                        <!--clients-->
+                        <li><a href="#testimonials" data-label="Testimonials">
+                                <i class="fa-regular fa-comment-dots"></i>
+                            </a></li>
+                        <!--contact-->
+                        <li><a href="#contact" data-label="Contact">
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!--**profile**-->
+            <div class="profile-container">
+                <div class="user-profile bg-gredient">
+                    <!--profile-box-->
+                    <div class="user-profile-container">
+                        <!--img-->
+                        <div class="user-profile-img">
+                            <img src="images/profile.jpg" alt="Al Mamun Hossen" />
+                        </div>
+                        <!--text-->
+                        <div class="user-profile-text">
+                            <span>Web Developer</span>
+                            <h1>Al Mamun Hossen</h1>
+                            <!--social-->
+                            <div class="profile-social-container">
+                                <a href="https://www.facebook.com/almamunhossen.com.bd" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="https://www.behance.net/almamunhossen" target="_blank"><i class="fa-brands fa-behance"></i></a>
+                                <a href="https://x.com/almamunhossen" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://github.com/almamunhossen" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://www.youtube.com/almamunhossen" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--btns-->
+                    <div class="user-profile-btns">
+                        <a href="cv/Resume.pdf" download target="_blank">Download CV</a>
+                        <a href="#contact">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--==all-content==================================-->
+        <div class="all-content">
+
+            <!--==About-us============================-->
+            <section id="about-us" class="section-container">
+                <h3>Hello, I'm <span id="role">Web Designer</span></h3>
+                <!-- <h1>Senior Web Developer and <span>Data Scientist</span> Based in California, Los Angeles.</h1> -->
+                <p>I’m Al Mamun Hossen — a highly experienced UI/UX designer, WordPress expert, and OpenType font developer based in Saudi Arabia, originally from Bangladesh. With over 20 years of hands-on experience, I specialize in building modern, user-focused digital solutions that combine aesthetics, functionality, and performance. Over the years, I’ve collaborated with respected companies like Meshal Suliman Co., KB Graphic, and Ekushey, contributing to projects in:</p>
+                <!--projects-completed-numbers-->
+                <div class="project-container-about">
+                    <!--box-->
+                    <div class="project-container-box">
+                        <span>395</span>
+                        <strong>Completed Projects</strong>
+                    </div>
+                    <!--box-->
+                    <div class="project-container-box">
+                        <span>20</span>
+                        <strong>Years of Experience</strong>
+                    </div>
+                    <!--box-->
+                    <div class="project-container-box">
+                        <span>45+</span>
+                        <strong>Awards Winning</strong>
+                    </div>
+                </div>
+            </section>
+
+            <!--==skills==============================-->
+            <section id="skills" class="section-container">
+                <!--heading-->
+                <div class="section-heading">
+                    <span><i class="fa-solid fa-layer-group"></i> Technical Skills</span>
+                    <h3>Technologies</h3>
+                </div>
+
+                <!--container-->
+                <div class="skill-box-container">
+                    <!--python-->
+                    <div class="skill-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="skill-box-content">
+                            <i class="fa-solid fa-pen-ruler"></i>
+                            <span> Branding, Graphic Design</span>
+                        </div>
+                        <!--bar-->
+                        <div class="skill-box-bar">
+                            <span style="width: 80%;"></span>
+                        </div>
+                        <!--percentage-->
+                        <span class="skill-box-percentage">80%</span>
+                    </div>
+                    <!--react-->
+                    <div class="skill-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="skill-box-content">
+                            <i class="fa-solid fa-font"></i>
+                            <span>Multilingual OpenType font Creation</span>
+                        </div>
+                        <!--bar-->
+                        <div class="skill-box-bar">
+                            <span style="width: 90%;"></span>
+                        </div>
+                        <!--percentage-->
+                        <span class="skill-box-percentage">90%</span>
+                    </div>
+                    <!--nodeJs-->
+                    <div class="skill-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="skill-box-content">
+                            <i class="fa-brands fa-wordpress"></i>
+                            <span>CMS Websites</span>
+                        </div>
+                        <!--bar-->
+                        <div class="skill-box-bar">
+                            <span style="width: 98%;"></span>
+                        </div>
+                        <!--percentage-->
+                        <span class="skill-box-percentage">98%</span>
+                    </div>
+                    <!--html css-->
+                    <div class="skill-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="skill-box-content">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>HTML & CSS</span>
+                        </div>
+                        <!--bar-->
+                        <div class="skill-box-bar">
+                            <span style="width: 80%;"></span>
+                        </div>
+                        <!--percentage-->
+                        <span class="skill-box-percentage">80%</span>
+                    </div>
+                    <!--JavaScript-->
+                    <div class="skill-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="skill-box-content">
+                            <i class="fa-brands fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <!--bar-->
+                        <div class="skill-box-bar">
+                            <span style="width: 70%;"></span>
+                        </div>
+                        <!--percentage-->
+                        <span class="skill-box-percentage">70%</span>
+                    </div>
+                    <!--MongoDB-->
+                    <div class="skill-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="skill-box-content">
+                            <i class="fa-solid fa-display"></i>
+                            <span>Troubleshooting, Software Installation, Networking</span>
+                        </div>
+                        <!--bar-->
+                        <div class="skill-box-bar">
+                            <span style="width: 95%;"></span>
+                        </div>
+                        <!--percentage-->
+                        <span class="skill-box-percentage">95%</span>
+                    </div>
+                </div>
+
+                <!--message-->
+                <p class="service-message">Contact Us For Need Any Help And Services <a href="#contact">Let's get Started</a>
+                </p>
+            </section>
+
+            <!--==service=============================-->
+            <section id="services" class="section-container">
+                <!--heading-->
+                <div class="section-heading">
+                    <span><i class="fa-solid fa-screwdriver-wrench"></i> Our Services</span>
+                    <h3>What Services I Provide ?</h3>
+                </div>
+
+                <!--container-->
+                <div class="service-container">
+                    <!--box-->
+                    <div class="service-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="service-box-heading">
+                            <!--icon-->
+                            <div class="service-box-icon">
+                                <img src="images/graphic.png" alt="graphic" />
+                            </div>
+                            <!--text-->
+                            <div class="service-box-heading-text">
+                                <span>35 Developers</span>
+                                <strong>Graphic Designer</strong>
+                            </div>
+                        </div>
+                        <!--details-->
+                        <p class="service-box-details">With a focus on branding and identity design, I am committed to helping businesses establish a strong and memorable visual presence through effective graphic design.</p>
+                        <!--link-->
+                        <a href="#">Get Started</a>
+                    </div>
+                    <!--box-->
+                    <div class="service-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="service-box-heading">
+                            <!--icon-->
+                            <div class="service-box-icon">
+                                <img src="images/web.png" alt="graphic" />
+                            </div>
+                            <!--text-->
+                            <div class="service-box-heading-text">
+                                <span>50 Developers</span>
+                                <strong>Web Development</strong>
+                            </div>
+                        </div>
+                        <!--details-->
+                        <p class="service-box-details">Clean and fresh issue-free code to make your website dynamic perfectly. WordPress, E-Commerce, Protestant Theme Development & Customization.</p>
+                        <!--link-->
+                        <a href="#">Get Started</a>
+                    </div>
+                    <!--box-->
+                    <div class="service-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="service-box-heading">
+                            <!--icon-->
+                            <div class="service-box-icon">
+                                <img src="images/tech.png" alt="tech" />
+                            </div>
+                            <!--text-->
+                            <div class="service-box-heading-text">
+                                <span>15 Developers</span>
+                                <strong>Opentype Font Developer</strong>
+                            </div>
+                        </div>
+                        <!--details-->
+                        <p class="service-box-details">OpenType font development is a highly specialized field that requires a combination of technical skills, creativity, and attention to detail to create high-quality, visually appealing digital typefaces.</p>
+                        <!--link-->
+                        <a href="#">Get Started</a>
+                    </div>
+                    <!--box-->
+                    <div class="service-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="service-box-heading">
+                            <!--icon-->
+                            <div class="service-box-icon">
+                                <img src="images/devops.png" alt="graphic" />
+                            </div>
+                            <!--text-->
+                            <div class="service-box-heading-text">
+                                <span>48 Developers</span>
+                                <strong>Troubleshooting, Software Installation, Networking</strong>
+                            </div>
+                        </div>
+                        <!--details-->
+                        <p class="service-box-details">Identifying and fixing technical issues, installing and updating software, and managing network systems to ensure smooth operation, reliable performance, and efficient communication between devices.</p>
+                        <!--link-->
+                        <a href="#">Get Started</a>
+                    </div>
+                </div>
+
+                <!--message-->
+                <p class="service-message">Contact Us For Need Any Help And Services <a href="#contact">Let's get Started</a>
+                </p>
+            </section>
+
+            <!--==pricing=============================-->
+            <section id="pricing" class="section-container">
+
+                <!--heading-->
+                <div class="section-heading">
+                    <span><i class="fa-solid fa-dollar-sign"></i> Pricing</span>
+                    <h3>Amazing Pricing For Your Projects</h3>
+                </div>
+
+                <!--==plan-container======================-->
+                <div class="plan-container">
+                    <!--box-->
+                    <div class="plan-box bg-gredient"  data-aos="fade-up">
+                        <span class="plan-name">Basic</span>
+                        <span class="price">$400</span>
+                        <a href="#contact">Order Now</a>
+                        <ul class="pricing-box-feature">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Create data models is SAP PowerDesigner</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Preparation and participation in POCs and demos</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipelines</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="plan-box bg-gredient"  data-aos="fade-up">
+                        <span class="plan-name">Pro</span>
+                        <span class="price">$800</span>
+                        <a href="#contact">Order Now</a>
+                        <ul class="pricing-box-feature">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Create data models is SAP PowerDesigner</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Preparation and participation in POCs and demos</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipelines</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Preparation and participation in POCs and demos</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipelines</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="plan-box bg-gredient"  data-aos="fade-up">
+                        <span class="plan-name">Premium</span>
+                        <span class="price">$1400</span>
+                        <a href="#contact">Order Now</a>
+                        <ul class="pricing-box-feature">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Create data models is SAP PowerDesigner</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Preparation and participation in POCs and demos</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipelines</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Create data models is SAP PowerDesigner</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Preparation and participation in POCs and demos</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipelines</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="plan-box bg-gredient"  data-aos="fade-up">
+                        <span class="plan-name">Ultimate</span>
+                        <span class="price">$3000</span>
+                        <a href="#contact">Order Now</a>
+                        <ul class="pricing-box-feature">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Create data models is SAP PowerDesigner</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Preparation and participation in POCs and demos</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipelines</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Create data models is SAP PowerDesigner</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Preparation and participation in POCs and demos</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipelines</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Create data models is SAP PowerDesigner</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--==projects============================-->
+            <section id="projects" class="section-container">
+
+                <!--heading-->
+                <div class="section-heading">
+                    <span><i class="fa-solid fa-briefcase"></i> Projects</span>
+                    <h3>Explore portfolio By Technology</h3>
+                </div>
+
+                <!--filter-->
+                <ul class="project-list">
+                    <li class="active" data-filter="all">All</li>
+                    <li data-filter="Design & Branding">Design & Branding</li>
+                    <li data-filter="Bangla Font">Bangla Font</li>
+                    <li data-filter="Web Development & Ui-Ux Design">Web Development & Ui-Ux Design</li>
+                </ul>
+
+                <!--container-->
+                <div class="project-container">
+                    <!--project-box Design & Branding-->
+                    <a href="https://www.behance.net/gallery/155749497/V-Pure" target="_blank" class="project-box" data-category="Design & Branding"  data-aos="fade-up">
+                        <!--img-->
+                        <div class="project-box-img">
+                            <img src="images/Vpure.jpg" alt="Vpure" />
+                        </div>
+                        <!--text-->
+                        <div class="project-box-text-container">
+                            <!--detail-->
+                            <div class="project-box-text">
+                                <strong>V Pure</strong>
+                                <span>Logo Branding</span>
+                            </div>
+                            <!--link-icon-->
+                            <div class="project-box-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                     <!--project-box bangla font-->
+                    <a href="https://ekushey.org/designer/poshkha/" target="_blank" class="project-box" data-category="Bangla Font"  data-aos="fade-up">
+                        <!--img-->
+                        <div class="project-box-img">
+                            <img src="images/bangla-font.jpg" alt="bangla-font" />
+                        </div>
+                        <!--text-->
+                        <div class="project-box-text-container">
+                            <!--detail-->
+                            <div class="project-box-text">
+                                <strong>Font Developed</strong>
+                                <span>Bangla Font</span>
+                            </div>
+                            <!--link-icon-->
+                            <div class="project-box-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </a>
+                        <!--project-box bangla font-->
+                    <a href="https://www.almamunhossen.com/sornaly-bangla-font" target="_blank" class="project-box" data-category="Bangla Font"  data-aos="fade-up">
+                        <!--img-->
+                        <div class="project-box-img">
+                            <img src="images/Sornaly-Bangla-Font.jpg" alt="Sornaly Bangla Font" />
+                        </div>
+                        <!--text-->
+                        <div class="project-box-text-container">
+                            <!--detail-->
+                            <div class="project-box-text">
+                                <strong>Sornaly</strong>
+                                <span>Bangla Font</span>
+                            </div>
+                            <!--link-icon-->
+                            <div class="project-box-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!--project-box-->
+                    <a href="https://ekushey.org" target="_blank" class="project-box" data-category="Web Development & Ui-Ux Design"  data-aos="fade-up">
+                        <!--img-->
+                        <div class="project-box-img">
+                            <img src="images/ekushey.jpg" alt="ekushey" />
+                        </div>
+                        <!--text-->
+                        <div class="project-box-text-container">
+                            <!--detail-->
+                            <div class="project-box-text">
+                                <strong>Ekushey</strong>
+                                <span>Web Development & Ui-Ux Design</span>
+                            </div>
+                            <!--link-icon-->
+                            <div class="project-box-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </a>
+                        <!--project-box-->
+                    <a href="https://idealgestureadv.com" target="_blank" class="project-box" data-category="Web Development & Ui-Ux Design"  data-aos="fade-up">
+                        <!--img-->
+                        <div class="project-box-img">
+                            <img src="images/Ideal.jpg" alt="ideal" />
+                        </div>
+                        <!--text-->
+                        <div class="project-box-text-container">
+                            <!--detail-->
+                            <div class="project-box-text">
+                                <strong> IDEAL Gesture Advertising</strong>
+                                <span>Web Development & Ui-Ux Design</span>
+                            </div>
+                            <!--link-icon-->
+                            <div class="project-box-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!--project-box-->
+                    <a href="https://www.behance.net/gallery/156904845/Basco-Auto-Solution-Ltd" class="project-box" data-category="Web Development & Ui-Ux Design"  data-aos="fade-up">
+                        <!--img-->
+                        <div class="project-box-img">
+                            <img src="images/Auto-car.jpg" alt="Business Company" />
+                        </div>
+                        <!--text-->
+                        <div class="project-box-text-container">
+                            <!--detail-->
+                            <div class="project-box-text">
+                                <strong>Business Company</strong>
+                                <span>Web Development & Ui-Ux Design</span>
+                            </div>
+                            <!--link-icon-->
+                            <div class="project-box-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <!--project-box-->
+                    <a href="https://www.behance.net/gallery/190712609/IBBL-ibanking-App" class="project-box" data-category="Web Development & Ui-Ux Design"  data-aos="fade-up">
+                        <!--img-->
+                        <div class="project-box-img">
+                            <img src="images/IBBL-ibanking-App.jpg" alt="IBBL ibanking App" />
+                        </div>
+                        <!--text-->
+                        <div class="project-box-text-container">
+                            <!--detail-->
+                            <div class="project-box-text">
+                                <strong>IBBL Ibanking </strong>
+                                <span>App Design & Ui-Ux Design</span>
+                            </div>
+                            <!--link-icon-->
+                            <div class="project-box-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <!--project-box-->
+                    <a href="#" class="project-box" data-category="Web Development & Ui-Ux Design"  data-aos="fade-up">
+                        <!--img-->
+                        <div class="project-box-img">
+                            <img src="images/p1.jpg" alt="project" />
+                        </div>
+                        <!--text-->
+                        <div class="project-box-text-container">
+                            <!--detail-->
+                            <div class="project-box-text">
+                                <strong>Dashboard of the Website</strong>
+                                <span>Web Development & Ui-Ux Design</span>
+                            </div>
+                            <!--link-icon-->
+                            <div class="project-box-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <!--project-box-->
+                    <a href="https://gmggroupbd.com" target="_blank" class="project-box" data-category="Web Development & Ui-Ux Design"  data-aos="fade-up">
+                        <!--img-->
+                        <div class="project-box-img">
+                            <img src="images/GMG.jpg" alt="project" />
+                        </div>
+                        <!--text-->
+                        <div class="project-box-text-container">
+                            <!--detail-->
+                            <div class="project-box-text">
+                                <strong>Dashboard of the Website</strong>
+                                <span>Web Development & Ui-Ux Design</span>
+                            </div>
+                            <!--link-icon-->
+                            <div class="project-box-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </a>
+                     <!--project-box-->
+                    <a href="https://reemgroup.co" target="_blank" class="project-box" data-category="Web Development & Ui-Ux Design"  data-aos="fade-up">
+                        <!--img-->
+                        <div class="project-box-img">
+                            <img src="images/reem-group.jpg" alt="project" />
+                        </div>
+                        <!--text-->
+                        <div class="project-box-text-container">
+                            <!--detail-->
+                            <div class="project-box-text">
+                                <strong>Reem Group</strong>
+                                <span>Web Development & Ui-Ux Design</span>
+                            </div>
+                            <!--link-icon-->
+                            <div class="project-box-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </a>
+                     <!--project-box-->
+                    <a href="#" target="_blank" class="project-box" data-category="Web Development & Ui-Ux Design"  data-aos="fade-up">
+                        <!--img-->
+                        <div class="project-box-img">
+                            <img src="images/Not.jpg" alt="project" />
+                        </div>
+                        <!--text-->
+                        <div class="project-box-text-container">
+                            <!--detail-->
+                            <div class="project-box-text">
+                                <strong>Todolist UI Design</strong>
+                                <span>Ui-Ux Design</span>
+                            </div>
+                            <!--link-icon-->
+                            <div class="project-box-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </section>
+
+            <!--==work and education==================-->
+            <section id="edu-work" class="section-container">
+
+                <!--heading-->
+                <div class="section-heading">
+                    <span><i class="fa-regular fa-file-lines"></i> Resume</span>
+                    <h3>Work Experience & Education</h3>
+                </div>
+
+
+                <!--==container=======================-->
+                <div class="edu-work-container">
+                    <!--==Education=================-->
+                    <div class="edu-container">
+                        <span class="edu-work-label">
+                            <i class="fa-solid fa-building-columns"></i>
+                            Education
+                        </span>
+
+                        <!--box-container-->
+                        <div class="edu-work-box-container" data-aos="fade-up">
+                            <!--box-->
+                            <div class="edu-work-box">
+                                <span class="edu-work-year">2005 - 2007</span>
+                                <strong>Diploma in Information Technology, Graphic & Web Design</strong>
+                                <span class="edu-work-location"> from Youview London University UK</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim repellendus natus
+                                    repellat</p>
+                            </div>
+                            <!--box-->
+                            <div class="edu-work-box">
+                                <span class="edu-work-year">1999 - 2000</span>
+                                <strong>Higher Secondary Certificate (H.S.C)</strong>
+                                <span class="edu-work-location">Comilla Board, Bangladesh</span>
+                                <p>Completed higher secondary education with a focus on academic development, analytical skills, and foundational knowledge for future studies and professional growth.
+                                </p>
+                            </div>
+                            <!--box-->
+                            <div class="edu-work-box">
+                                <span class="edu-work-year">1997 - 1998</span>
+                                <strong>Secondary School Certificate (S.C.C)</strong>
+                                <strong>Business Studies in Bangladesh</strong>
+                                <span class="edu-work-location">Comilla Board, Bangladesh</span>
+                                <p>Completed secondary education with a concentration in Business Studies, building core knowledge in commerce, basic accounting, and practical understanding of business concepts.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!--==work======================-->
+                    <div class="work-container"  data-aos="fade-up">
+                        <span class="edu-work-label">
+                            <i class="fa-solid fa-briefcase"></i>
+                            Work
+                        </span>
+
+                        <!--box-container-->
+                        <div class="edu-work-box-container">
+                            <!--box-->
+                            <div class="edu-work-box">
+                                <span class="edu-work-year">2012 - Present</span>
+                                <strong> IT & Graphic Design</strong>
+                                <span class="edu-work-location">Jeddah, KSA. Al-Meshal For Trading Co.</span>
+                                <p>Graphic Design & Printing Accessories, IT Support, Troubleshooting, Software Installation, Networking, CCTV Installation and Maintenance.
+                                </p>
+                            </div>
+                            <!--box-->
+                            <div class="edu-work-box">
+                                <span class="edu-work-year">2009 - 2012</span>
+                                <strong>Senior Pre-Press and Graphic Design</strong>
+                                <span class="edu-work-location">Jeddah, KSA. Banawi Corrugated Packaging</span>
+                                <p> Flexor Graphic Design & Printing Accessories</p>
+                            </div>
+                            <!--box-->
+                            <div class="edu-work-box">
+                                <span class="edu-work-year">2006 - 2009</span>
+                                <strong>IT & Graphic Designer</strong>
+                                <span class="edu-work-location">Jeddah, KSA. Rowel Fahad Printing Press</span>
+                                <p>Printing Accessories & PC Troubleshooting & Software Installation.
+                                </p>
+                            </div>
+                            <!--box-->
+                            <div class="edu-work-box">
+                                <span class="edu-work-year">2004 - 2006</span>
+                                <strong>Graphic Designer</strong>
+                                <span class="edu-work-location">Jeddah, KSA. Eradha Advertising Agency</span>
+                                <p>designing & Printing Accessories
+                                </p>
+                            </div>
+                            <!--box-->
+                            <div class="edu-work-box">
+                                <span class="edu-work-year">2003 - 2004</span>
+                                <strong>Graphic Designer</strong>
+                                <span class="edu-work-location">Dhaka, Bangladesh. K.B Graphic System</span>
+                                <p> Printing Accessories
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!--==clients=================================-->
+            <section id="testimonials" class="section-container">
+
+                <!--heading-->
+                <div class="section-heading"  data-aos="fade-up">
+                    <span><i class="fa-regular fa-comment-dots"></i> Testimonials</span>
+                    <h3>Here's what my clients say</h3>
+                </div>
+
+                <!--container-->
+                <div class="testimonials-container" data-aos="fade-up">
+                    <!-- slider -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+
+                            <!--slide-->
+                            <div class="swiper-slide">
+                                <!--box-->
+                                <div class="testimonials-box bg-gredient">
+                                    <!--review-->
+                                    <div class="testimonials-reviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p>"l was impressed by the professionalism and expertise of this web developer. They brought my
+vision to life with a stunning and seamless website. Easy to work with, they kept me informed
+throughout the process. Highly recommended!"</p>
+                                    <div class="client-profile">
+                                        <!--img-->
+                                        <div class="client-profile-img">
+                                            <img src="images/Saiful.webp" alt="client" />
+                                        </div>
+                                        <!--text-->
+                                        <div class="client-profile-text">
+                                            <strong>Kamrul Zzaman Saiful</strong>
+                                            <span>Manager, Petrobe Co.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--slide-end-->
+
+                            <!--slide-->
+                            <div class="swiper-slide">
+                                <!--box-->
+                                <div class="testimonials-box bg-gredient">
+                                    <!--review-->
+                                    <div class="testimonials-reviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p>"Thank you for the great service you have been giving throughout the past year and I am sure we
+are still going to rely on A1 Mamun Hossen as one Of the best Design suppliers for the upcoming
+years."</p>
+                                    <div class="client-profile">
+                                        <!--img-->
+                                        <div class="client-profile-img">
+                                            <img src="images/AbuYesar.jpg" alt="client" />
+                                        </div>
+                                        <!--text-->
+                                        <div class="client-profile-text">
+                                            <strong>Abu Yesar</strong>
+                                            <span>Business Manager, Yasmen Co.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--slide-end-->
+
+                            <!--slide-->
+                            <div class="swiper-slide">
+                                <!--box-->
+                                <div class="testimonials-box bg-gredient">
+                                    <!--review-->
+                                    <div class="testimonials-reviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p>"l had a great experience working with this web developer and graphic designer. They were very
+patient and helpful, and answered all of my questions promptly. The end result was a Beautiful
+website that exceeded my expectations. I highly recommend their services!"</p>
+                                    <div class="client-profile">
+                                        <!--img-->
+                                        <div class="client-profile-img">
+                                            <img src="images/Zakri.webp" alt="client" />
+                                        </div>
+                                        <!--text-->
+                                        <div class="client-profile-text">
+                                            <strong>Sk. Zakir Hossain</strong>
+                                            <span>CEO, Reem croup co.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--slide-end-->
+
+                            <!--slide-->
+                            <div class="swiper-slide">
+                                <!--box-->
+                                <div class="testimonials-box bg-gredient">
+                                    <!--review-->
+                                    <div class="testimonials-reviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p>"We believe that great design can transform your business. That's why we offer a wide range Of
+graphic design and branding services. Our expert designers create memorable designs that
+connect with your audience. Contact us today to elevate your brand and grow your business."</p>
+                                    <div class="client-profile">
+                                        <!--img-->
+                                        <div class="client-profile-img">
+                                            <img src="images/Wahid.webp" alt="client" />
+                                        </div>
+                                        <!--text-->
+                                        <div class="client-profile-text">
+                                            <strong>Mr. Wahiduzzaman</strong>
+                                            <span>CEO, Al-Neff Al-Sami co.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--slide-end-->
+
+                            <!--slide-->
+                            <div class="swiper-slide">
+                                <!--box-->
+                                <div class="testimonials-box bg-gredient">
+                                    <!--review-->
+                                    <div class="testimonials-reviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p>"We appreciate the professionalism of Al Mamun Hossen i know hem 5 years and specially staffs.
+Very impressive responses from design, great end result and nice support. Will definitely continue
+to you!"</p>
+                                    <div class="client-profile">
+                                        <!--img-->
+                                        <div class="client-profile-img">
+                                            <img src="images/Zakri.webp" alt="client" />
+                                        </div>
+                                        <!--text-->
+                                        <div class="client-profile-text">
+                                            <strong>Abdulrauf Babatunde</strong>
+                                            <span>CEO</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--slide-end-->
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <!--message-->
+                <p class="testimonials-message"  data-aos="fade-up">More than <span>200+ companies</span> trusted us worldwide</p>
+
+                <!--client-logos-->
+                <div class="client-logos"  data-aos="fade-up">
+                    <img src="images/msaj.png" alt="MSAJ"/>
+                    <img src="images/TajTuj.png" alt="TajTuj"/>
+                    <img src="images/Petrobe.png" alt="Petrobe"/>
+                    <img src="images/kraPharmacy.png" alt="Kra Pharmacy"/>
+                    <img src="images/DiamondOil.png" alt="DiamondOil"/>
+                    <img src="images/WahidCon.png" alt="WahidCon"/>
+                    <img src="images/Kra.png" alt="Kra"/>
+                </div>
+
+            </section>
+
+            <!--==contact=================================-->
+            <section id="contact" class="section-container">
+                
+                <!--heading-->
+                <div class="section-heading">
+                    <span><i class="fa-solid fa-paper-plane"></i> Contact</span>
+                    <h3>Let's Get In Touch!</h3>
+                </div>
+
+                <!--container-->
+                <div class="contact-box-container">
+                    <!--box-->
+                    <div class="contact-box bg-gredient"  data-aos="fade-up">
+                        <!--icon-->
+                        <div class="contact-box-icon">
+                            <i class="fa-solid fa-address-book"></i>
+                            <strong>Phone</strong>
+                        </div>
+                        <!--detail-->
+                        <span>+966 546 177 621</span>
+                    </div>
+                    <!--box-->
+                    <div class="contact-box bg-gredient"  data-aos="fade-up">
+                        <!--icon-->
+                        <div class="contact-box-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                            <strong>Email</strong>
+                        </div>
+                        <!--detail-->
+                        <span>almamunhossen@gmail.com</span>
+                    </div>
+
+                     <!--box-->
+                     <div class="contact-box bg-gredient contact-box-location"  data-aos="fade-up">
+                        <!--icon-->
+                        <div class="contact-box-icon">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <strong>Location</strong>
+                        </div>
+                        <!--detail-->
+                        <span>Jeddah, Saudi Arabia</span>
+                    </div>
+                </div>
+
+                <!--map-->
+                <div class="contact-map"  data-aos="fade-up">
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231.98604683495148!2d39.18298698597461!3d21.516462824666153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3cef3cc7b8b37%3A0x827f208fad13ccbd!2sAl%20Reem%20Printing%20Press!5e0!3m2!1sen!2ssa!4v1773735734893!5m2!1sen!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div> 
+                <br>
+                <footer>
+                    © <span id="year"></span> <a href="https://www.almamunhossen.com" target="_blank" class="footer-link aos-init aos-animate">Al Mamun Hossen</a> All Rights Reserved.
+                </footer>
+            </section>
+        </div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--aos for animation-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
